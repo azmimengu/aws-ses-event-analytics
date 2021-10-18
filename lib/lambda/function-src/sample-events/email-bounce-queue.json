@@ -1,0 +1,20 @@
+{
+  "Records": [
+    {
+      "messageId": "2f1f026e-b262-4178-a562-2adeb909e8fd",
+      "receiptHandle": "AQEBxSqexQdqlqNwmQydVxxPuRFya7QiZ6UnuIqvsM4KlDa6VDqrBAmPEwlr+CJmeL9l/FFhNjKfeFx0G9+RvdTXpC1Gh84lhUK2Ghnf79VM3qOw3u9kuZ7YcjjigNGtkg9tJWDnAexT16nQG16g00hlaCPjZ7w6pc4CkUeBMkekAgRcpSoFjd24S+rxgdADzaUYKDSb0xAnYFvG6Un70IZBn+mtueWhvgxkP4Tb/1EjevNMNmSawvLHw508tY4ChAnY0bzMOfuhoyA2NbHPoVxAXHE1i5ZjeAZSFlr/OLu3903AQSZBz+z4gSJ5QHd1FKaeHQmqxWNW7OxPsm2ycTWO0tljQ+zobdc8p+6+x4nVqNG0aJI1KRv2mk1E7rhUO7A/upKUzPDm3QxvzLqalki/rw==",
+      "body": "{\n  \"Type\" : \"Notification\",\n  \"MessageId\" : \"0cfb2386-2384-5289-a86b-7aa07e26530e\",\n  \"TopicArn\" : \"arn:aws:sns:eu-central-1:171882145805:ses-events-destination-dev-topic\",\n  \"Subject\" : \"Amazon SES Email Event Notification\",\n  \"Message\" : \"{\\\"eventType\\\":\\\"Bounce\\\",\\\"bounce\\\":{\\\"feedbackId\\\":\\\"01070179a144f957-3a3f8492-2ac8-4bef-8aaf-761f9be15210-000000\\\",\\\"bounceType\\\":\\\"Permanent\\\",\\\"bounceSubType\\\":\\\"General\\\",\\\"bouncedRecipients\\\":[{\\\"emailAddress\\\":\\\"bounce@simulator.amazonses.com\\\",\\\"action\\\":\\\"failed\\\",\\\"status\\\":\\\"5.1.1\\\",\\\"diagnosticCode\\\":\\\"smtp; 550 5.1.1 user unknown\\\"}],\\\"timestamp\\\":\\\"2021-05-25T02:05:22.724Z\\\",\\\"reportingMTA\\\":\\\"dns; b224-11.smtp-out.eu-central-1.amazonses.com\\\"},\\\"mail\\\":{\\\"timestamp\\\":\\\"2021-05-25T02:05:21.810Z\\\",\\\"source\\\":\\\"onur.kilic@cfyazilim.com\\\",\\\"sourceArn\\\":\\\"arn:aws:ses:eu-central-1:171882145805:identity/cfyazilim.com\\\",\\\"sendingAccountId\\\":\\\"171882145805\\\",\\\"messageId\\\":\\\"01070179a144f612-50cd360d-035b-49b0-be7a-c6850f725c87-000000\\\",\\\"destination\\\":[\\\"bounce@simulator.amazonses.com\\\"],\\\"headersTruncated\\\":false,\\\"headers\\\":[{\\\"name\\\":\\\"From\\\",\\\"value\\\":\\\"onur.kilic@cfyazilim.com\\\"},{\\\"name\\\":\\\"To\\\",\\\"value\\\":\\\"bounce@simulator.amazonses.com\\\"},{\\\"name\\\":\\\"Subject\\\",\\\"value\\\":\\\"This is a test mail from Javascript application\\\"},{\\\"name\\\":\\\"MIME-Version\\\",\\\"value\\\":\\\"1.0\\\"},{\\\"name\\\":\\\"Content-Type\\\",\\\"value\\\":\\\"text/html; charset=UTF-8\\\"},{\\\"name\\\":\\\"Content-Transfer-Encoding\\\",\\\"value\\\":\\\"7bit\\\"}],\\\"commonHeaders\\\":{\\\"from\\\":[\\\"onur.kilic@cfyazilim.com\\\"],\\\"to\\\":[\\\"bounce@simulator.amazonses.com\\\"],\\\"messageId\\\":\\\"01070179a144f612-50cd360d-035b-49b0-be7a-c6850f725c87-000000\\\",\\\"subject\\\":\\\"This is a test mail from Javascript application\\\"},\\\"tags\\\":{\\\"ses:operation\\\":[\\\"SendEmail\\\"],\\\"ses:configuration-set\\\":[\\\"cfyazilim-tracking\\\"],\\\"ses:source-ip\\\":[\\\"88.244.93.141\\\"],\\\"ses:from-domain\\\":[\\\"cfyazilim.com\\\"],\\\"ses:caller-identity\\\":[\\\"azmi.mengu\\\"],\\\"EMAIL\\\":[\\\"NULL\\\"]}}}\\n\",\n  \"Timestamp\" : \"2021-05-25T02:05:22.790Z\",\n  \"SignatureVersion\" : \"1\",\n  \"Signature\" : \"IMa1TYF/ySUwFCzH9ROcxBolZ2vE+I3Xcj6YeRhCk0UXJ1s6JP7vn2ZgBGKf8tO1mLf4GMEM5696W0Kt+GTsicobTSlu7oaL05uMPnk2UfZaZJD9t1oCgmTHlQEcrrmnXTWkQ1UQ4GzaJny2+r8xwJk2t0F/ROasCuU1dIHfPlM39iKnN8THLfP9XeyuGY8/mIZTbhra4hbunQH8geWd0DcyqxuBLyLI3ZNB3NV6w4CrFJJZl4l0JCpzbbX+LYpFadRM5vlsBL40X8pdal0NtmUr0xGYj8UXJ/s8NepNU420CGdUo27RXj6KNeBSBCQrPj1qe9EgA+mRDtejJn79Dw==\",\n  \"SigningCertURL\" : \"https://sns.eu-central-1.amazonaws.com/SimpleNotificationService-010a507c1833636cd94bdb98bd93083a.pem\",\n  \"UnsubscribeURL\" : \"https://sns.eu-central-1.amazonaws.com/?Action=Unsubscribe&SubscriptionArn=arn:aws:sns:eu-central-1:171882145805:ses-events-destination-dev-topic:c4ff6a0d-16c6-41af-a2b2-cf0f738e15e2\"\n}",
+      "attributes": {
+        "ApproximateReceiveCount": "1",
+        "SentTimestamp": "1621908322818",
+        "SenderId": "AIDAISDDSWNBEXIA6J64K",
+        "ApproximateFirstReceiveTimestamp": "1621908322819"
+      },
+      "messageAttributes": {},
+      "md5OfBody": "eb0f8e1fdd2e408c2c462721faaa68ff",
+      "eventSource": "aws:sqs",
+      "eventSourceARN": "arn:aws:sqs:eu-central-1:171882145805:dev-ses-event-queue",
+      "awsRegion": "eu-central-1"
+    }
+  ]
+}

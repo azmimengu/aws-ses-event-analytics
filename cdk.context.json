@@ -1,0 +1,12 @@
+{
+  "dev": {
+    "account": "yourAccountId",
+    "region": "eu-central-1",
+    "mongoDbUri": ""
+  },
+  "prod": {
+    "account": "yourAccountId",
+    "region": "eu-central-1",
+    "mongoDbUri": ""
+  }
+}

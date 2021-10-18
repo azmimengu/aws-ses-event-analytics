@@ -1,0 +1,20 @@
+{
+  "Records": [
+    {
+      "messageId": "c5e07d88-55a1-403e-bacc-a44964f3ca41",
+      "receiptHandle": "AQEBStc4AW4dMR5VXNJYFKb+Q48uYmiiMtAignbwH2zRCCLiqzdEmsQxsL2gr/+cljLbGeW08ZlD2uvSzDOEzcOLeBj1iJ52COzKi/ZUKh67UJ/IYPN62K8J14X9UC11uAr5TFvIXKQTUZ16nTmWeQiBPNvKubf7QB9Xlsh/Xtzq0U0S/l9Kd+0EMGt4tk9g0WrDvz4OoqMV8Yscr6u4Sn2UKLfZqItPcSBV8mUqSnzvMuBZqHbJuHYLwwKqRGJh00YeGgChsm2qWVPhFM9g3FwdyH0etizAApW+C1PaAv8aC1IQDzUUEzSmoXiVwW8D8uau7vq+MnR8+4lh1kM9WyXn06LPhetgeGCY+OQ/aHsBGspcegwBLDLbMQByueChcwIPtO0GluWXxwCfhpksW7myZw==",
+      "body": "{\n  \"Type\" : \"Notification\",\n  \"MessageId\" : \"eb8a9ff3-7a48-596f-be7a-c6d51c1e99ea\",\n  \"TopicArn\" : \"arn:aws:sns:eu-central-1:171882145805:ses-events-destination-dev-topic\",\n  \"Subject\" : \"Amazon SES Email Event Notification\",\n  \"Message\" : \"{\\\"eventType\\\":\\\"Complaint\\\",\\\"complaint\\\":{\\\"feedbackId\\\":\\\"01070179a166f8c2-265bbdc2-7434-4fee-a6c3-23fbe02ada9e-000000\\\",\\\"complaintSubType\\\":null,\\\"complainedRecipients\\\":[{\\\"emailAddress\\\":\\\"complaint@simulator.amazonses.com\\\"}],\\\"timestamp\\\":\\\"2021-05-25T02:42:30.807Z\\\",\\\"userAgent\\\":\\\"Amazon SES Mailbox Simulator\\\",\\\"complaintFeedbackType\\\":\\\"abuse\\\",\\\"arrivalDate\\\":\\\"2021-05-25T02:42:30.807Z\\\"},\\\"mail\\\":{\\\"timestamp\\\":\\\"2021-05-25T02:42:27.979Z\\\",\\\"source\\\":\\\"onur.kilic@cfyazilim.com\\\",\\\"sourceArn\\\":\\\"arn:aws:ses:eu-central-1:171882145805:identity/cfyazilim.com\\\",\\\"sendingAccountId\\\":\\\"171882145805\\\",\\\"messageId\\\":\\\"01070179a166ee0b-ed5311d0-aba4-42ca-a949-1e2a25ddb346-000000\\\",\\\"destination\\\":[\\\"complaint@simulator.amazonses.com\\\"],\\\"headersTruncated\\\":false,\\\"headers\\\":[{\\\"name\\\":\\\"From\\\",\\\"value\\\":\\\"onur.kilic@cfyazilim.com\\\"},{\\\"name\\\":\\\"To\\\",\\\"value\\\":\\\"complaint@simulator.amazonses.com\\\"},{\\\"name\\\":\\\"Subject\\\",\\\"value\\\":\\\"This is a test mail from Javascript application\\\"},{\\\"name\\\":\\\"MIME-Version\\\",\\\"value\\\":\\\"1.0\\\"},{\\\"name\\\":\\\"Content-Type\\\",\\\"value\\\":\\\"text/html; charset=UTF-8\\\"},{\\\"name\\\":\\\"Content-Transfer-Encoding\\\",\\\"value\\\":\\\"7bit\\\"}],\\\"commonHeaders\\\":{\\\"from\\\":[\\\"onur.kilic@cfyazilim.com\\\"],\\\"to\\\":[\\\"complaint@simulator.amazonses.com\\\"],\\\"messageId\\\":\\\"01070179a166ee0b-ed5311d0-aba4-42ca-a949-1e2a25ddb346-000000\\\",\\\"subject\\\":\\\"This is a test mail from Javascript application\\\"},\\\"tags\\\":{\\\"ses:operation\\\":[\\\"SendEmail\\\"],\\\"ses:configuration-set\\\":[\\\"cfyazilim-tracking\\\"],\\\"ses:source-ip\\\":[\\\"88.244.93.141\\\"],\\\"ses:from-domain\\\":[\\\"cfyazilim.com\\\"],\\\"ses:caller-identity\\\":[\\\"azmi.mengu\\\"],\\\"EMAIL\\\":[\\\"NULL\\\"]}}}\\n\",\n  \"Timestamp\" : \"2021-05-25T02:42:30.885Z\",\n  \"SignatureVersion\" : \"1\",\n  \"Signature\" : \"eNLKQmosC2aFJbYsgJg1ACQpByDw0Pctifpp/dmzilFK7lA5WYi75gz5hbVL59VV9XTdXBmA1tsA6PW5/u5ZYpvOvHJ7Bqb4IM/UMscWY0xycbyhFX0HZ+j8z+eWGEY63h0OmxB0jMRBWsT1ZJ2HddFAY9QB3oYBiIiuj1QMW4+eKLKfh8r39vfaSsKdJcZcJoUH3ZUuNmBIR1X8iWcpOS6pOFWYfEiZtIz0BLLkpa3tkhuri7+331ZVXqsCrr03lhAjjf44kw/shgENLOXr5XN3YSs0z91Z1pLLTkZvir8XE3ciKmL7E7MbaO3DcKWepoGPN1koY7xPrKToNY+Lqg==\",\n  \"SigningCertURL\" : \"https://sns.eu-central-1.amazonaws.com/SimpleNotificationService-010a507c1833636cd94bdb98bd93083a.pem\",\n  \"UnsubscribeURL\" : \"https://sns.eu-central-1.amazonaws.com/?Action=Unsubscribe&SubscriptionArn=arn:aws:sns:eu-central-1:171882145805:ses-events-destination-dev-topic:c4ff6a0d-16c6-41af-a2b2-cf0f738e15e2\"\n}",
+      "attributes": {
+        "ApproximateReceiveCount": "1",
+        "SentTimestamp": "1621910550919",
+        "SenderId": "AIDAISDDSWNBEXIA6J64K",
+        "ApproximateFirstReceiveTimestamp": "1621910550920"
+      },
+      "messageAttributes": {},
+      "md5OfBody": "75a44f1f0047671b56f836738becc5b8",
+      "eventSource": "aws:sqs",
+      "eventSourceARN": "arn:aws:sqs:eu-central-1:171882145805:dev-ses-event-queue",
+      "awsRegion": "eu-central-1"
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "Records": [
+    {
+      "messageId": "95f908bc-194a-4a67-ac58-11d2c5b72e18",
+      "receiptHandle": "AQEB/4ElB5WAp8/FZy7wzN7vsmlR+dP2UzbOfsMFKFJuN3hsXd9I82txmd2JMXEiNuUfDVCks4GjEUQoE2hexEhIsTrVa5haDsalPqRW7KCWiCpwdpnU2vzD5s5B7wzYbZx4LAbgQ9CPbiym5XEnbbl4SVKVWadzn6uX49/+2w3s+5qUgB0Bd5pKBOx4BgeRmOwsUgdrz2hBcnsFmA1X7Stt0cKzyncjbhSkPPMzh9DqEXgT6pAnrXUeBWw4F3OZ2zrMYyoVyNjVJwxk/1JjK7W1A2zTiU7VmMTlGMJJQEeaJe/B5JhQxJGSmVJTN5sr/3DcR0nBQOj3kqviaO9pO9bL4v4kMfxB/WSvG5Xqs3uK0Ft/cLe61WbiVPJsZKw82Qq5muQncLldgRaOs2HMRbSKkw==",
+      "body": "{\n  \"Type\" : \"Notification\",\n  \"MessageId\" : \"b9e1ce0f-34d0-5f47-8bc0-972965af86ab\",\n  \"TopicArn\" : \"arn:aws:sns:eu-central-1:171882145805:ses-events-destination-dev-topic\",\n  \"Subject\" : \"Amazon SES Email Event Notification\",\n  \"Message\" : \"{\\\"eventType\\\":\\\"Delivery\\\",\\\"mail\\\":{\\\"timestamp\\\":\\\"2021-05-25T01:13:34.499Z\\\",\\\"source\\\":\\\"onur.kilic@cfyazilim.com\\\",\\\"sourceArn\\\":\\\"arn:aws:ses:eu-central-1:171882145805:identity/cfyazilim.com\\\",\\\"sendingAccountId\\\":\\\"171882145805\\\",\\\"messageId\\\":\\\"01070179a1158c23-cfe4a80b-e743-4b6e-bff9-b3208fde1ced-000000\\\",\\\"destination\\\":[\\\"azmimengu@gmail.com\\\"],\\\"headersTruncated\\\":false,\\\"headers\\\":[{\\\"name\\\":\\\"From\\\",\\\"value\\\":\\\"onur.kilic@cfyazilim.com\\\"},{\\\"name\\\":\\\"To\\\",\\\"value\\\":\\\"azmimengu@gmail.com\\\"},{\\\"name\\\":\\\"Subject\\\",\\\"value\\\":\\\"This is a test mail from Javascript application\\\"},{\\\"name\\\":\\\"MIME-Version\\\",\\\"value\\\":\\\"1.0\\\"},{\\\"name\\\":\\\"Content-Type\\\",\\\"value\\\":\\\"text/html; charset=UTF-8\\\"},{\\\"name\\\":\\\"Content-Transfer-Encoding\\\",\\\"value\\\":\\\"7bit\\\"}],\\\"commonHeaders\\\":{\\\"from\\\":[\\\"onur.kilic@cfyazilim.com\\\"],\\\"to\\\":[\\\"azmimengu@gmail.com\\\"],\\\"messageId\\\":\\\"01070179a1158c23-cfe4a80b-e743-4b6e-bff9-b3208fde1ced-000000\\\",\\\"subject\\\":\\\"This is a test mail from Javascript application\\\"},\\\"tags\\\":{\\\"ses:operation\\\":[\\\"SendEmail\\\"],\\\"ses:configuration-set\\\":[\\\"cfyazilim-tracking\\\"],\\\"ses:source-ip\\\":[\\\"88.244.93.141\\\"],\\\"ses:from-domain\\\":[\\\"cfyazilim.com\\\"],\\\"ses:caller-identity\\\":[\\\"azmi.mengu\\\"],\\\"EMAIL\\\":[\\\"NULL\\\"],\\\"ses:outgoing-ip\\\":[\\\"69.169.224.10\\\"]}},\\\"delivery\\\":{\\\"timestamp\\\":\\\"2021-05-25T01:13:35.107Z\\\",\\\"processingTimeMillis\\\":608,\\\"recipients\\\":[\\\"azmimengu@gmail.com\\\"],\\\"smtpResponse\\\":\\\"250 2.0.0 OK  1621905215 n13si1115732wmc.35 - gsmtp\\\",\\\"reportingMTA\\\":\\\"b224-10.smtp-out.eu-central-1.amazonses.com\\\"}}\\n\",\n  \"Timestamp\" : \"2021-05-25T01:13:35.171Z\",\n  \"SignatureVersion\" : \"1\",\n  \"Signature\" : \"CKDwFFNeoxjdC374MRjV86hCqAFJJdK+gVN7SSxUqmHxWrIFFCS1hpG8GzCVtBEcN7QRAW+JkK69D488A40Tu8Rzo2MEAQx0uJKvxQcg3LzURy+huu5w8KgDm4e/KCV7zRtJNRFBME1BNG1ssx4d9Kc6IZ+o3NLUjagOwb+9qqrsx+ac0d870x0sX3ZsC7GE9TAbR4fbv5aFV+aZ8Z9MyF3hzCYsmeRZXCIc/+ZJ/GSewS0tlpHCtVQXRVK69SRfvdAdlPdXAz33T/Cpc9x5TQbeFGUNSYJSdWiTN1OeXjubvRYgEA+a9IobJt1n5EAQtvPUn1zEL8450LdZi8r0pA==\",\n  \"SigningCertURL\" : \"https://sns.eu-central-1.amazonaws.com/SimpleNotificationService-010a507c1833636cd94bdb98bd93083a.pem\",\n  \"UnsubscribeURL\" : \"https://sns.eu-central-1.amazonaws.com/?Action=Unsubscribe&SubscriptionArn=arn:aws:sns:eu-central-1:171882145805:ses-events-destination-dev-topic:c4ff6a0d-16c6-41af-a2b2-cf0f738e15e2\"\n}",
+      "attributes": {
+        "ApproximateReceiveCount": "1",
+        "SentTimestamp": "1621905215202",
+        "SenderId": "AIDAISDDSWNBEXIA6J64K",
+        "ApproximateFirstReceiveTimestamp": "1621905215207"
+      },
+      "messageAttributes": {},
+      "md5OfBody": "39c58ea3d60ed118ce7e64f1a2462ef9",
+      "eventSource": "aws:sqs",
+      "eventSourceARN": "arn:aws:sqs:eu-central-1:171882145805:dev-ses-event-queue",
+      "awsRegion": "eu-central-1"
+    }
+  ]
+}
